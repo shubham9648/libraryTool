@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+
+.App{
+  padding: 0;
+  margin: 0;
+  background-color: #060c21;
+}
+.header-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: rebeccapurple;
+  width: 100%;
+}
+.header-main-text{
+  font-size: 1.9rem;
+  color: white;
+}
+.secondary-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-texts{
+  padding: 2rem;
+  color: wheat;
+}
+.main-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left-align{
+  width: 30%;
+  position: relative;
+  margin-left: 3rem;
+/* background: #060c21;
+ */
+ 
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left-align-heading{
+  font-size: 1.8rem;
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  color: white;
+}
+p{
+  color: gray;
+}
+.nested-left-align{
+  width: 30%;
+
+  padding: 0.8rem;
+  border: 4px solid rebeccapurple;
+  /* background: #060c21; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.story-text{
+  color: white;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.right-align{
+  width: 60%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* justify-content: center; */
+}
+hr{
+  color: black;
+  font-weight: bold;
+}
+.about-right{
+  
+}
+
+h2{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.right-align-h{
+  color: whitesmoke;
+  font-size: 1.2rem;
 }
+.author{
+  position: relative;
+  right: 350px;
+}
+label{
+  color: white;
+}
+.link-name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+  
+}
+.write-left-align{
+  margin-top: 3rem;
+  border: 2px solid red;
+}
+.view-div{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.view-input{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+label{
+font-size: 1.2rem;
+}
+input{
+  width: 240%;
+}
+.comment-1{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.write-left-align{
+  background-color: aliceblue;
+}
+.create-heading-write{
+  color: black;
 }
