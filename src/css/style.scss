@@ -1,0 +1,239 @@
+$bg-color:#060c21;
+
+.App{
+   background-color: $bg-color;
+   width: 100%;
+}
+.header-div{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   background: rebeccapurple;
+   
+ }
+ .header-main-text{
+   font-size: 1.9rem;
+   color: white;
+ }
+ .secondary-div{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+ }
+ .header-texts{
+   padding: 2rem;
+   color: wheat;
+ }
+ .main-section{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+ 
+ .left-align{
+   width: 30%;
+   position: relative;
+   margin-left: 3rem;
+ /* background: #060c21;
+  */
+  
+   
+ }
+ 
+ .left-align-heading{
+   font-size: 1.8rem;
+   position: relative;
+   margin-top: 2rem;
+   margin-bottom: 5rem;
+   color: white;
+ }
+ p{
+   color: gray;
+ }
+ .nested-left-align{
+   width: 30%;
+ 
+   padding: 0.8rem;
+   border: 4px solid rebeccapurple;
+   /* background: #060c21; */
+ }
+ 
+ 
+ .story-text{
+   color: white;
+   position: relative;
+   margin-bottom: 1.5rem;
+ }
+ .right-align{
+   width: 60%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* justify-content: center; */
+ }
+ hr{
+   color: black;
+   font-weight: bold;
+ }
+ .about-right{
+   
+ }
+ 
+ h2{
+   color: white;
+ }
+ .right-align-h{
+   color: whitesmoke;
+   font-size: 1.2rem;
+ }
+ .author{
+   position: relative;
+   right: 350px;
+ }
+ label{
+   color: white;
+ }
+ .link-name{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 3rem;
+   
+ }
+ .write-left-align{
+   margin-top: 3rem;
+   border: 2px solid red;
+ }
+ .view-div{
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+ 
+ }
+ .view-input{
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   justify-content: space-around;
+ }
+ label{
+ font-size: 1.2rem;
+ }
+ input{
+   width: 240%;
+ }
+ .comment-1{
+   display: flex;
+   align-items: flex-start;
+   flex-direction: row;
+ }
+ .profile{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ 
+ }
+ .header-write{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .input-h2{
+   width: 40%;
+   height: 30%;
+ }
+ .create-write{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+ .create-write1{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-left: 6.5rem;
+ }
+ .input{
+   display: flex;
+   flex-direction: row;
+ }
+ .write-left-align{
+   background-color: aliceblue;
+ }
+ .create-heading-write{
+   color: black;
+ }
+ .contents{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   .input-para{
+     margin-top: 6rem;
+     position: absolute;
+     left: 5rem;
+     line-height: 2rem;
+     font-size: 1.2rem;
+     width: 40%;
+     
+   }
+ }
+ .text-show{
+
+  .show-title{
+    color: black;
+  }
+ }
+ @media screen and (max-width:780px){
+  .App{
+    width: fit-content;
+
+  }
+  .header-div{
+    display: flex;
+  }
+  .main-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .right-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  .author{
+    position: absolute;
+    right: 3rem;
+    margin-top: 4rem;
+  }
+  .about-right{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+  }
+  .view-input{
+    
+  }
+  #fName{
+    width: auto;
+  }
+  #email{
+    width: auto;
+  }
+  #opinion{
+    width: auto;
+  }
+ }

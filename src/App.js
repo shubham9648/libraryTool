@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './css/style.css';
 import Header from "./components/Header";
 import Section from './components/Section';
 import Write from "./components/Write";
